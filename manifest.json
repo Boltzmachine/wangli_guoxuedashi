@@ -1,0 +1,20 @@
+{
+    "name": "国学大师-王力古汉语字典",
+    "description": "extension for wangli traditional Chinese dictionary on Guoxuedashi website",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "web_accessible_resources": [{
+        "resources": ["resource/*"],
+        "matches": ["http://www.guoxuedashi.net/*"]
+    }],
+    "content_scripts": [{
+        "matches": ["http://www.guoxuedashi.net/zidian/*"],
+        "js": ["main.js"],
+        "run_at": "document_end"
+    }]
+}
