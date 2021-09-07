@@ -1,14 +1,15 @@
 # 王力古汉语字典-国学大师网站chrome插件
 
 ## 安装方法
+**以下截图来源于chrome，edge浏览器基本类似**
 1. 下载文件，如果是zip下载则需要解压
-2. 打开chrome浏览器，在地址栏内输入
+2. 打开chrome浏览器，在地址栏内输入`chrome://extensions`（chrome用户）或`edge://extensions`（edge用户）
 
-<img src="https://github.com/Boltzmachine/wangli_guoxuedashi/blob/master/img/url.png" alt="url" style="zoom:50%;" />
+   <img src="https://github.com/Boltzmachine/wangli_guoxuedashi/blob/master/img/url.png" alt="url" style="zoom:50%;" />
 
 1. 在页面右上角打开开发者模式
 
-<img src="https://github.com/Boltzmachine/wangli_guoxuedashi/blob/master/img/developer_mode.png" alt="developer_mode" style="zoom:50%;" />
+   <img src="https://github.com/Boltzmachine/wangli_guoxuedashi/blob/master/img/developer_mode.png" alt="developer_mode" style="zoom:50%;" />
 
 1. 左上角选择Load Unpacked
 
